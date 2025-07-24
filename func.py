@@ -19,6 +19,6 @@ async def msg_get(bot: Bot):
             config.uniqueness.append(time_id)
             text = f"{dtm_id} - {status}"
 
-            await bot.send_message(736978777, text)
+            await bot.send_message(-4657215123, text)
         await asyncio.sleep(0)
 
